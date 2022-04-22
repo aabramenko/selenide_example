@@ -19,4 +19,11 @@ public class Locators {
 
     public static String ADDED_TO_CART_TITLE = "//*[@id='colorbox']//*[text()='Added to Your Shopping Bag']";
 
+    public static String MODAL_ITEM_NAME = "//*[@class='add-to-cart-item']//a[@class='name']";
+
+    public static String MODAL_ITEM_PRICE = "//*[@class='add-to-cart-item']//*[@class='price']";
+
+    public static String MODAL_ITEM_QUANTITY = "//*[@class='add-to-cart-item']//*[@class='qty']";
+
+    public static String MODAL_ITEM_SIZE = "//*[@class='add-to-cart-item']//*[@class='itemSize']";
 }
