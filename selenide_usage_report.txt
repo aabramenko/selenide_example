@@ -1,0 +1,27 @@
+===========================
+Selenide usage report
+===========================
+
+---------------------------
+Iteration 1
+---------------------------
+
+Environment: Ubuntu 20.04, Intellij Idea.
+
+Time: Automation of the first iteration, including debugging, took 3 hours.
+
+How I automated:
+- cloned the selenide example project https://github.com/selenide-examples/google
+- created another package inside the project
+- created page object classes and test classes by analogy with the example project files
+
+Disadvantages, in my opinion:
+- the example by Selenide authors doesn't have a configured log tool, like log4j. It's very useful for logging and debugging. I didn't waste time to configure the tool by my own.
+- there are several example projects with different features for demonstation: the project with the example how to automate google, the second example with integrated Allure, another one with a docker container. I'd prefer to have all of that in one example project. It's hard to understand quickly how to add Allure to the first example project (google testing).
+- all examples are written in different styles, using different approaches. It's hard to choose what example should be used for your first project if you're new in Selenide.
+
+Advantages:
+- quite a powerful tool which allows to start test automation very quickly, without a core preparation/configuration
+- encapsulated browsers and waits management, which is already tuned and works out of the box; a test engineer should not spend time for the configuration
+- convenient assertions
+ 
